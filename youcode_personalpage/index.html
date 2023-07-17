@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>o Michale...</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/lucida-handwriting-std" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+
+</head>
+
+<body class="body body--grayTheme js-body">
+    <div class="container">
+        <div class="buttonContainer">
+            <button class="themeButton js-themeButton"><span class="buttonText">Mniej szarości</span></button>
+        </div>
+    </div>
+
+    <main class="main">
+        <h1 class="header js-header">Oto strona o Michale Kotlińskim</h1>
+        <img class="picture js-picture" width="200" src="https://imgupload.pl/images/2022/12/14/zdjeciemk.jpg"
+            alt="Michał">
+        <img class="picture js-picture" width="200" src="https://imgupload.pl/images/2022/12/17/ja2.jpg"
+            alt="Michał_informatycznie">
+        <p><button class="button js-button">UKRYJ/POKAŻ DRUGIE(2) ZDJĘCIE</button></p>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a class="navigation__link"
+                        href="https://imgupload.pl/images/2023/01/24/piekny_pyton.png"
+                        download="piekny_pyton.png">Pobierz zdjęcie pięknego Pythona</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#tables">Ulubione książki i muzyka</a>
+                </li>
+                <li class="navigation__item"><a class="navigation__link" href="#ls-sweets-coffee">Ulubione słodycze i
+                        instrukcja robienia kawy</a></li>
+                <li class="navigation__item"><a class="navigation__link"
+                        href="tel:+48.5466(123)56787">+48.5466(123)56787</a>
+                </li>
+            </ul>
+        </nav>
+        <article class="article">
+            <h2 class="article__header">Dlaczego dwa zdjęcia?</h2>
+            <p class="article__paragraph"><strong>Oba zdjęcia</strong> przedstawiają tą samą osobę - czyli
+                mnie.<br>Jednak zdjęcie z tablicą w tle
+                pokazuje moją aktualną sytuację <strong> <br>- jestem nauczycielem w szkole.</strong>
+                <br>Drugie zdjęcie z kodem w tle pokazuje, do czego chcę dojść:<br> <strong><u>chcę
+                        kodować.</u></strong>
+            </p>
+        </article>
+        <article class="article">
+            <h2 class="article__header">Motywacja wkroczenia na ścieżkę Frontend</h2>
+
+            <p class="article__paragraph"><b>Myślę</b>, że ta<em> umiejętność</em> da mi szanse
+                rozwoju i&nbsp;bezpieczeństwa finansowego.</p>
+        </article>
+        <span class="interesting"><em>PROGRAMOWANIE - ROZWIJA</em></span>
+        <div class="box">
+            <article class="article">
+                <h2>Tymczasem - w drodze...</h2>
+                <p class="article__paragraph">Uczę się tutaj, jak prawidłowo łączyć elementy HTML, CSS i&nbsp;JS, aby
+                    tworzyły funkcjonalną i prawidłowo
+                    działającą oraz oczywiście ciekawą stronę.
+                </p>
+            </article>
+            <article>
+
+                <h3>„Per aspera ad astra”</h3>
+                <p>Droga do drugiego zdjęcia bywa trudna, mozolna i pracochłonna, dlatego powtarzając za Herbertem:<br>
+                    „przez ciernie do gwiazd” (łac. per aspera ad astra).</p>
+            </article>
+        </div>
+
+        <section id="tables">
+            <h2 class="tables__header">FASCYNACJE</h2>
+            <div class="tables">
+                <table class="table">
+                    <caption class="table__caption">Bardzo lubię te książki</caption>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="col">Autor</th>
+                        <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+                        <th class="table__cell table__cell--header" scope="col">Rok wydania</th>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell" rowspan="2">Umberto Eco</td>
+                        <td class="table__cell">„Wahadło Foucoulta”</td>
+                        <td class="table__cell">1983</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">„Wyspa dnia poprzedniego”</td>
+                        <td class="table__cell">1995</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell" rowspan="2">Jerzy Żuławski</td>
+                        <td class="table__cell">"Na srebrnym globie"</td>
+                        <td class="table__cell">1903</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">"Zwycięzca"</td>
+                        <td class="table__cell">1910</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Joanna Bator</td>
+                        <td class="table__cell">"Ciemno, prawie noc."</td>
+                        <td class="table__cell">2013</td>
+                    </tr>
+
+                </table>
+                <table class="table">
+                    <caption class="table__caption">Przepiękna muzyka</caption>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="col">Wykonawca</th>
+                        <th class="table__cell table__cell--header" scope="col">Tytuł albumu</th>
+                        <th class="table__cell table__cell--header" scope="col">Rok wydania</th>
+
+                    <tr class="table__row">
+                        <td class="table__cell" rowspan="2">Nomeansno</td>
+                        <td class="table__cell">"Mama"</td>
+                        <td class="table__cell">1982</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">"0 + 2 = 1"</td>
+                        <td class="table__cell">1991</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell" rowspan="2">Something like Elvis</td>
+                        <td class="table__cell">"Shape"</td>
+                        <td class="table__cell">1999</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">"Cigarette smoke phantom"</td>
+                        <td class="table__cell">1998</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Nine Inch Nails</td>
+                        <td class="table__cell">"The Downoward Spiral"</td>
+                        <td class="table__cell">1994</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section id="ls-sweets-coffee" class="section">
+            <h3 class="header js-header">Ulubione słodycze i instrukcja robienia kawy</h3>
+            <div class="lists">
+                <div class="lists__item">
+                    <p class="lists__itemTitle">Moje ulubione slodycze:</p>
+                    <ul class="lists__itemList">
+                        <li class="lists__itemList">Kinder
+                            <ul class="lists__itemList">
+                                <li class="lists__itemList">Czekolada</li>
+                                <li class="lists__itemList">Schoko-Bons</li>
+                            </ul>
+                        </li>
+                        <li class="lists__itemList">Lay's
+                            <ul class="lists__itemList">
+                                <li class="lists__itemList">Strong</li>
+                                <li class="lists__itemList">Stix</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lists__item">
+                    <p class="lists__itemTitle">Prosta instrukcja robienia kawy ☕:</p>
+                    <ol class="lists__item-list" type="I">
+                        <li class="lists__itemList">Ugotuj wodę.</li>
+                        <li class="lists__itemList">Wsyp kawę do kubka.</li>
+                        <li class="lists__itemList">Wlej wodę do kubka. 🥤
+                            <ul class="lists__itemList">
+                                <li class="lists__itemList">Uważaj, żeby nie wylać.⚠</li>
+                                <li class="lists__itemList">Możesz dolać mleka, jeśli masz ochotę.</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <div class="footer_link">
+            <a rel="noreferrer noopener" target="_blank" href="https://linuxhint.com/osint-tools-and-techniques/"
+                title="Artykuł o OSINT">OSINT - jeśli chcesz się dowiedzieć, co to jest - przeczytaj.</a>
+        </div>
+        <footer>
+            Copyright &copy;2023 Michał Kotliński
+        </footer>
+    </main>
+
+</html>

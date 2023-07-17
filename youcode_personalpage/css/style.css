@@ -1,0 +1,374 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+.header {
+    background-color: #e6ffff;
+    color: #066014;
+    text-shadow: 1px 1px 1px #888;
+    border-radius: 10px;
+    padding: 5px 20px 5px;
+    font-size: 1.5em;
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.body--grayTheme {
+    background-color: #bec7c9;
+    color: #000;
+}
+
+.body--whiteTheme {
+    background-color: #ffffff;
+    /* Kolor tła dla jasnego motywu */
+}
+
+.main {
+    max-width: 100%;
+    text-align: center;
+}
+
+.button {
+    margin: auto;
+    padding: 5px;
+    background-color: #e6f2ff;
+    font-family: "Lucida Handwriting", sans-serif;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+}
+
+.button:focus {
+    background-color: #e6f2ff;
+    outline: 1px solid #252525;
+}
+
+.button:hover {
+    background-color: #e6ffe6;
+    outline: 1px outset #ffeecc;
+}
+
+.button:active {
+    background-color: #888;
+}
+
+.navigation {
+    margin: auto;
+    list-style-type: none;
+    padding: 5px;
+    background-color: #e6f2ff;
+    text-align: center;
+    max-width: 1080px;
+    border-radius: 15px;
+}
+
+.navigation__list {
+    padding: 0px;
+}
+
+.navigation__item {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 25px;
+    position: relative;
+    box-shadow: inset 50px -10px 40px 14px #b8b894,
+        inset 75px -45px 71px 11px #7856ce;
+    text-decoration: none;
+}
+
+.navigation__item:focus {
+    outline: 2px solid currentColor;
+}
+
+.navigation__item:hover {
+    color: red;
+    border: 1px solid;
+    outline: none;
+}
+
+.navgation__link {
+    color: green;
+}
+
+.interesting {
+    color: brown;
+}
+
+.box {
+    display: block;
+    background-color: #e6f2ff;
+    color: #000;
+    border-radius: 10%;
+    font-family: "Solitreo", cursive;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    max-width: 60%;
+    box-shadow: -10px -10px 27px 0px #efc0ac;
+    margin-top: 10px;
+    box-shadow: inset -10px 10px 27px 0px #efc0ac;
+    text-shadow: 2px 2px 5px #333;
+}
+
+.article {
+    font-family: "Lato";
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 2px 2px 8px #ccc;
+    margin: 20px auto;
+}
+
+.article__header {
+    color: teal;
+    font-family: "Lucida Handwriting", sans-serif;
+}
+
+.article__paragraph {
+    color: #777;
+    font-family: "Lucida Handwriting", sans-serif;
+}
+
+.picture {
+    margin: auto;
+}
+
+.grayTheme,
+.themeButton,
+.header {
+    background-color: #e6ffff;
+    color: #000;
+}
+
+.themeButtonContainer {
+    text-align: right;
+}
+
+.themeButton {
+    background-color: #cccccc;
+    color: #888;
+    min-width: 150px;
+    margin: 10px 25px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.themeButton:focus {
+    background-color: #444;
+    outline: 5px solid #252525;
+}
+
+.themeButton:hover {
+    background-color: #666;
+}
+
+.themeButton:active {
+    background-color: #666;
+}
+
+.themeButton.grayTheme {
+    background: #aaa;
+    color: #e0ffff;
+}
+
+.themeButton.grayTheme:focus {
+    background-color: #666;
+    outline: 5px solid #ccc;
+}
+
+.themeButton.grayTheme:hover {
+    background-color: #888;
+}
+
+.themeButton.grayTheme:active {
+    background-color: #666;
+}
+
+.explanation {
+    font-family: "Solitreo", cursive;
+    font-size: 20px;
+}
+
+.tables {
+    font-family: "Lucida Handwriting", sans-serif;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-block-end: auto;
+    margin-top: 10px;
+    resize: both;
+    display: flex;
+    margin: 10px;
+    overflow-x: auto;
+    justify-content: space-evenly;
+}
+
+.tables__header {
+    background-color: #e6ffff;
+    margin: 10px auto;
+    padding: 5px;
+    font-weight: 700;
+    width: 20%;
+    text-align: center;
+    border-radius: 15%;
+    text-shadow: 2px 2px 2px #666;
+}
+
+.table__caption {
+    background-color: none;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Lucida Handwriting", sans-serif;
+    font-weight: 700;
+}
+
+td {
+    border-radius: 10%;
+    background-color: rgb(215, 243, 234);
+    color: #030702;
+    font-weight: bold;
+    padding: 10px;
+    box-shadow: inset 5px 0px 16px -13px #b21157;
+    resize: both;
+}
+
+.table__cell:nth-child(even) {
+    background-color: #eee;
+}
+
+.table__cell:hover {
+    background-color: #ddd;
+}
+
+.table__cell {
+    padding: 10px;
+    text-align: center;
+    font-weight: 200;
+    color: #050505;
+    vertical-align: middle;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.table__cell--header {
+    background-color: #847cbf;
+    color: #660066;
+    font-weight: 900;
+    border: 0px;
+    border-radius: 10%;
+    box-shadow: inset 10px 10px 36px -13px hsl(150, 44%, 51%);
+}
+
+.section {
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+}
+
+.section__title {
+    background-color: #efdea7;
+    color: #066014;
+    text-shadow: 1px 1px 1px #888;
+    border-radius: 10px;
+    padding: 5px 20px 5px;
+    font-size: 1.5em;
+    width: 99%;
+    margin: 20px auto;
+}
+
+.lists {
+    display: flex;
+    max-width: 630px;
+    margin: auto;
+    gap: 50px;
+    overflow-x: auto;
+    text-align: left;
+    justify-content: center;
+}
+
+.lists__itemTitle {
+    font-weight: 700;
+}
+
+.lists__itemList {
+    margin: 5px 0;
+}
+
+.list_u {
+    font-size: 14px;
+    max-width: 200px;
+    margin: auto;
+    list-style-position: inside;
+    resize: both;
+}
+
+.list_o {
+    font-size: 14px;
+    background-color: rgb(218, 197, 165);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-width: 200px;
+    margin: auto;
+    resize: both;
+}
+
+.footer {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;
+    font-weight: 500;
+    margin: auto;
+    margin-top: 30px;
+    max-width: 30%;
+    text-align: center;
+}
+
+.footer_link {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 25%;
+    padding: 10px;
+    text-align: center;
+    color: #847cbf;
+    font-size: auto;
+    font-style: italic;
+    font-weight: bold;
+    background-color: #ccffcc;
+    border-style: dashed;
+    border-radius: 30%;
+    text-shadow: 5px 4px 10px #333;
+}
+
+.footer_link:focus {
+    outline: 2px solid currentColor;
+    color: red;
+}
+
+.footer_link:hover {
+    color: red;
+    border: 1px solid;
+    outline: none;
+}
+
+.footer_link:visited {
+    color: darkred;
+}
+
+.container {
+    overflow-x: hidden;
+}
