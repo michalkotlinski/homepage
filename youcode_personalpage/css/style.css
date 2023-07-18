@@ -119,24 +119,6 @@ html {
     text-shadow: 2px 2px 5px #333;
 }
 
-.article {
-    font-family: "Lato";
-    max-width: 600px;
-    padding: 20px;
-    box-shadow: 2px 2px 8px #ccc;
-    margin: 20px auto;
-}
-
-.article__header {
-    color: teal;
-    font-family: "Lucida Handwriting", sans-serif;
-}
-
-.article__paragraph {
-    color: #777;
-    font-family: "Lucida Handwriting", sans-serif;
-}
-
 .picture {
     margin: auto;
 }
