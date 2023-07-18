@@ -8,8 +8,10 @@
 
 .article__header {
     color: teal;
+    font-family: "Lato";
 }
 
-.article__paragraph{
+.article__paragraph {
     color: #777;
+    font-family: "Lato";
 }
