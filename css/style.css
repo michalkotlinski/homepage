@@ -25,10 +25,9 @@ html {
     color: #000;
 }
 
-.body--whiteTheme{
+.body--whiteTheme {
     background-color: #FFFFFF;
-    
-    /* Kolor tła dla jasnego motywu */
+/* Kolor tła dla jasnego motywu */
 }
 
 .main {
@@ -85,7 +84,6 @@ html {
         inset 75px -45px 71px 11px #7856ce;
     text-decoration: none;
 }
-
 
 .navigation__item:focus {
     outline: 2px solid currentColor;
