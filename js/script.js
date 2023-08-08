@@ -1,8 +1,8 @@
-let bodyElement = document.querySelector(".js-body");
-let button = document.querySelector(".js-button");
-let picture = document.querySelector(".js-picture");
-let themeButtonElement = document.querySelector(".js-themeButton");
-let headerElement = document.querySelectorAll(".js-header");
+const bodyElement = document.querySelector(".js-body");
+const button = document.querySelector(".js-button");
+const picture = document.querySelector(".js-picture");
+const themeButtonElement = document.querySelector(".js-themeButton");
+const headerElement = document.querySelectorAll(".js-header");
 
 button.addEventListener("click", () => {
   picture.hidden = !picture.hidden;

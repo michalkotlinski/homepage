@@ -25,8 +25,9 @@ html {
     color: #000;
 }
 
-.body--whiteTheme {
-    background-color: #ffffff;
+.body--whiteTheme{
+    background-color: #FFFFFF;
+    
     /* Kolor tła dla jasnego motywu */
 }
 
@@ -85,6 +86,7 @@ html {
     text-decoration: none;
 }
 
+
 .navigation__item:focus {
     outline: 2px solid currentColor;
 }
@@ -93,10 +95,11 @@ html {
     color: red;
     border: 1px solid;
     outline: none;
+    text-transform: uppercase;
 }
 
-.navgation__link {
-    color: green;
+.navigation__link {
+    text-decoration: none;
 }
 
 .interesting {
