@@ -8,7 +8,7 @@ html {
     box-sizing: inherit;
 }
 
-.header {
+header {
     background-color: #e4b55e;
     color: #066014;
     text-shadow: 1px 1px 1px #888;
