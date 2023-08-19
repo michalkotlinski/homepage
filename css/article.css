@@ -1,5 +1,6 @@
 .article {
     font-family: "Lato";
+    background-color: rgb(128, 173, 204);
     max-width: 600px;
     padding: 20px;
     box-shadow: 2px 2px 8px #ccc;
