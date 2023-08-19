@@ -96,9 +96,11 @@ html {
     text-transform: uppercase;
 }
 
-.navigation__link {
+.navigation__link,
+.navigation__link:visited {
     text-decoration: none;
 }
+
 
 .interesting {
     color: brown;
