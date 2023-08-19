@@ -101,6 +101,9 @@ html {
     text-decoration: none;
 }
 
+.article__paragraph{
+    background-color: #80AD80;
+}
 
 .interesting {
     color: brown;
