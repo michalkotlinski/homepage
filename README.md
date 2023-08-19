@@ -5,3 +5,11 @@ This is my website - a business card created as an **exercise** during the *fron
 ## Demo
 
 https://michalkotlinski.github.io/homepage/
+
+## TECHNOLOGIES:
+- HTML
+- CSS BEM
+- JAVASCRIPT
+
+## Created by
+Michał Kotliński &copy;2023
