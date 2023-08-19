@@ -294,7 +294,11 @@ td {
     text-align: left;
     justify-content: center;
 }
-
+#ls-sweets-coffee {
+    border:4px dotted orange;
+    padding: 5px;
+    background-color: #9e97cf;
+}
 .lists__itemTitle {
     font-weight: 700;
 }
