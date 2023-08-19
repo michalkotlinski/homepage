@@ -102,6 +102,7 @@ html {
 }
 
 .navigation__link,
+.navigation__link:visited,
 .navigation__item:visited {
     text-decoration: none;
 }
