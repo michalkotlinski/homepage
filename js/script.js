@@ -1,4 +1,3 @@
-
 {
 button.addEventListener("click", () => {
   picture.hidden = !picture.hidden;
