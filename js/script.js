@@ -1,4 +1,6 @@
-const bodyElement = document.querySelector(".js-body");
+
+{
+  const bodyElement = document.querySelector(".js-body");
 const button = document.querySelector(".js-button");
 const picture = document.querySelector(".js-picture");
 const themeButtonElement = document.querySelector(".js-themeButton");
@@ -19,4 +21,4 @@ themeButtonElement.addEventListener("click", () => {
     : "Więcej szarości";
 
   headerElement.forEach((header) => header.classList.toggle("grayTheme"));
-});
+})};
