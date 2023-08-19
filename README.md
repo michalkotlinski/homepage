@@ -12,4 +12,4 @@ https://michalkotlinski.github.io/homepage/
 - JAVASCRIPT
 
 ## Created by
-Michał Kotliński&copy; 2023
+Michał Kotliński &copy;2023
