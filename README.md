@@ -6,7 +6,7 @@ This is my website - a business card created as an **exercise** during the *fron
 
 https://michalkotlinski.github.io/homepage/
 
-##TECHNOLOGIES:
+## TECHNOLOGIES:
 - HTML
 - CSS BEM
 - JAVASCRIPT
