@@ -64,7 +64,7 @@ html {
     margin: auto;
     list-style-type: none;
     padding: 5px;
-    background-color: #e6f2ff;
+    background-color: #e28d47;
     text-align: center;
     max-width: 1080px;
     border-radius: 15px;
@@ -76,6 +76,7 @@ html {
 
 .navigation__item {
     display: inline-block;
+    
     padding: 10px;
     margin: 5px;
     border-radius: 25px;
@@ -83,6 +84,10 @@ html {
     box-shadow: inset 50px -10px 40px 14px #b8b894,
         inset 75px -45px 71px 11px #7856ce;
     text-decoration: none;
+}
+
+.li.navigation__item {
+    background-color: #550660;
 }
 
 .navigation__item:focus {
@@ -97,16 +102,12 @@ html {
 }
 
 .navigation__link,
-.navigation__link:visited {
+.navigation__item:visited {
     text-decoration: none;
 }
 
 .article{
     border-radius: 50px;
-}
-
-.article__paragraph--grayTheme{
-    background-color: #847cbf;
 }
 
 .interesting {
