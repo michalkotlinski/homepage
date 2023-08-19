@@ -101,8 +101,12 @@ html {
     text-decoration: none;
 }
 
-.article__paragraph{
-    background-color: #80AD80;
+.article{
+    border-radius: 50px;
+}
+
+.article__paragraph--grayTheme{
+    background-color: #847cbf;
 }
 
 .interesting {
